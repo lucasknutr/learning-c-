@@ -21,9 +21,11 @@ Console.WriteLine($"{hey}. {credentials}");
 int valor = 200;
 
 // For - Estrutura de repeticao
-for (int i = 1; i <= 12; i++){
+for (int i = 1; i <= 3; i++){
     Console.WriteLine($"Mês {i}: {valor}");
     valor += 200;
 }
 
+// Using classes
 var pessoa = new Pessoa("Lucas", 1300);
+Console.WriteLine($"Nome: {pessoa.Nome}, Saldo: {pessoa.Saldo}");
